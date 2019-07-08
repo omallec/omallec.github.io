@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Helvetica, Calibri, sans-serif;
+	font-size: 16px; /*1em = 16px*/
+	color: rgb(50,97,81);
+	line-height: 1.5em;
+	border: 10px dotted gray;
+
+
+}
+main {
+	width: 800px;
+	align-content: center;
+	border: 10px solid purple;
+}
+
+header	{
+	background-color: rgb(150,194,22); 
+	font-family: Merriweather;
+	padding: 15px;
+	line-height: 1.5em;
+	border: 10px dashed black;
+}
+
+h1 {
+	color: #ffffff;
+	font-size: 2em;
+	border: 10px solid yellow;
+}
+
+h2, h3 {
+	font-family: 'Lato', sans-serif;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: 10px solid black;
+}
+
+h4 {
+	font-family: 'Lato', sans-serif;
+	font-size: large; 
+	font-style: italic;
+	font-weight: normal; 
+	line-height: 2.00em;
+	padding-top: 10px;
+	border: 10px dotted green;
+}
+
+section	{
+	padding: 15px;
+	background-color: yellow;
+	border-width top: 20px;
+	border-color: black;
+}	
+
+p{
+	font-family: 'Noto Sans', sans-serif;
+	border: 10px dashed yellow;
+}
+
+aside	{
+	float: right;
+}
+
+a {
+		font-weight: bold;
+		text-decoration: none;
+		border: 10px dashed blue;
+	}
+
+	nav a {
+	color: white;
+	margin: auto;
+	font-weight: bold;
+	text-decoration: none;
+	padding-top: 20px;
+		}
+
+img {
+
+	border: 10px dashed white;
+}
+ul {
+	padding-left: 30px;
+	border: 10px dashed gray;
+}
+
+footer{
+	background-color: rgb(150,194,22);  
+	background-image: url("/images/(comp_HERO_56574141.jpg");
+	color: white;
+	font-size: small;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	padding-top: 25px;
+	border: 10px solid black;
+}
+
+
+#wrapper {
+
+	background-image: url(images/comp_HERO_56574141.jpg alt="Workplace with open computer and peaceful surrpounding to design in." title="Laptop on desk in front of window displaying e-Learning Designs Logo.");
+	margin-right: 0 auto;
+	border: 10px solid blue;
+}
+
+
+.skip-link {
+position: absolute;
+width: 1px;
+height: 1px;
+padding: 0;
+overflow: hidden;
+clip: rect(0, 0, 0, 0);
+white-space: nowrap;
+-webkit-clip-path: inset(50%);
+clip-path: inset(50%);
+border: 0;
+}
+
+.skip-link:active, .skip-link:focus {
+position: static;
+width: auto;
+height: auto;
+overflow: visible;
+clip: auto;
+white-space: normal;
+-webkit-clip-path: none;
+clip-path: none;
+}
+
+
+#design {
+
+	width: 33%;
+	background-color: gray;
+	margin: auto;
+	padding-top: 10px;
+	border-width: 10px;
+	border-color: black;
+	
+}
+
+#tutoring {
+
+	width: 33%;
+	background-color: blue;
+	margin: auto;
+	padding-top: 10px;
+	border-top: 80px;
+	border-color: black;
+	
+}
+
+#WCAG {
+
+	width: 33%;
+	background-color: purple;
+	margin: auto;
+	padding-top: 10px;
+	border-width: 10px;
+	border-color: black;
+	
+}
+.pageLinks{
+	
+	padding:20px;
+	font-family: 'Open Sans', sans-serif;
+	border-color: white;
+	border: -1rem solid;
+	border-radius: 8px;
+	margin: auto;
+/*	padding-top: 10px;
+	padding-right: 40px;
+	padding-bottom: 20px;
+	padding-left: 40px;*/
+}
+
+span {font-style: italic;
+font-weight: bold;
+font-size: larger;
+}
