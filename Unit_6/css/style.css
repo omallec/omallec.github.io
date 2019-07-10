@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+* {
+
+	padding: 0;
+	margin: 0;
+}
+
+body {
+
+	font-family: Helvetica, Calibri, sans-serif;
+	font-size: 16px; /*1em = 16px*/
+	color: rgb(50,97,81);
+	line-height: 1.5em;
+}
+
+main {
+
+	width: 800px;
+	align-content: center;
+}
+
+header {
+
+	background-color: rgb(150,194,22); 
+	font-family: Merriweather;
+	line-height: 1.5em;
+	padding: 15px;
+}
+
+h1 {
+
+	color: #ffffff;
+	font-size: 2em;
+	
+}
+
+h2, h3 {
+
+	font-family: 'Lato', sans-serif;
+}
+
+h4 {
+
+	font-family: 'Lato', sans-serif;
+	font-size: large; 
+	font-style: italic;
+	font-weight: normal; 
+	line-height: 2.00em;
+	padding-top: 10px;
+}
+
+section	{
+
+	padding: 15px;
+	border-width top: 20px;
+}	
+
+p {
+
+	font-family: 'Noto Sans', sans-serif;
+}
+
+aside {
+
+	float: right;
+}
+
+a {
+
+	font-weight: bold;
+	text-decoration: none;
+	display: inline-block;
+}
+
+a:hover {
+	background-color: rgb(50,97,81);
+}
+
+nav a {
+
+	color: white;
+	margin: auto;
+	font-weight: bold;
+	text-decoration: none;
+	padding-top: 20px;
+}
+
+
+ul {
+
+	padding-left: 30px;
+}
+
+footer {
+
+	background-color: rgb(150,194,22);  
+	color: white;
+	font-size: small;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	padding-top: 25px;
+}
+
+#wrapper {
+
+	margin-right: 0 auto;
+}
+
+#logo {
+
+	background-image: url("../images/Logo.png");
+}
+
+
+.skip-link {
+
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	-webkit-clip-path: inset(50%);
+	clip-path: inset(50%);
+	border: 0;
+}
+
+.skip-link:active, .skip-link:focus {
+
+	position: static;
+	width: auto;
+	height: auto;
+	overflow: visible;
+	clip: auto;
+	white-space: normal;
+	-webkit-clip-path: none;
+	clip-path: none;
+}
+
+
+#design {
+
+	width: 33%;
+	margin: auto;
+	padding-top: 10px;
+	border-width: 10px;
+	
+}
+
+#tutoring {
+
+	width: 33%;
+	margin: auto;
+	padding-top: 10px;
+	border-top: 80px;
+	
+}
+
+#WCAG {
+
+	width: 33%;
+	margin: auto;
+	padding-top: 10px;
+	border-width: 10px;
+	
+}
+
+.pageLinks{
+
+	padding:20px;
+	font-family: 'Open Sans', sans-serif;
+	border-color: white;
+	border: -1rem solid;
+	border-radius: 8px;
+	margin: auto;
+/*	padding-top: 10px;
+	padding-right: 40px;
+	padding-bottom: 20px;
+	padding-left: 40px;*/
+}
+
+span { 
+
+	font-style: italic;
+	font-weight: bold;
+	font-size: larger;
+}
